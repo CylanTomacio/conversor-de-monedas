@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9ecd80-606b-4f80-9515-0cce9d7b77f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversor_de_monedas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/efoxdev/conversor/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/efoxdev/conversor/models/Conversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/efoxdev/conversor/services/ConexionAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/efoxdev/conversor/services/Mensajes.java" afterDir="false" />
-    </list>
+    <list default="true" id="8b9ecd80-606b-4f80-9515-0cce9d7b77f6" name="Changes" comment="Creado el proyecto para conversión de monedas con sus clases Mensajes, ConexionAPI, Coversor y la Principal. Adicionados todos los métodos y lógica para la conexión con la API de ExchangeRate." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720217593733</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creado el proyecto para conversión de monedas con sus clases Mensajes, ConexionAPI, Coversor y la Principal. Adicionados todos los métodos y lógica para la conexión con la API de ExchangeRate.">
+      <option name="closed" value="true" />
+      <created>1720389604987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720389604987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creado el proyecto para conversión de monedas con sus clases Mensajes, ConexionAPI, Coversor y la Principal. Adicionados todos los métodos y lógica para la conexión con la API de ExchangeRate." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado el proyecto para conversión de monedas con sus clases Mensajes, ConexionAPI, Coversor y la Principal. Adicionados todos los métodos y lógica para la conexión con la API de ExchangeRate." />
   </component>
 </project>

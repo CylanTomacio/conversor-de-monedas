@@ -4,7 +4,6 @@ import com.efoxdev.conversor.models.Conversor;
 import com.efoxdev.conversor.services.ConexionAPI;
 import com.efoxdev.conversor.services.Mensajes;
 
-import java.text.DecimalFormat;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -13,9 +12,9 @@ public class Principal {
         ConexionAPI convertirMonedas = new ConexionAPI();
         boolean stopProgram = false;
         Scanner teclado = new Scanner(System.in);
-        int seleccionUsuario = 0;
-        double cantidadUsuario = 0.0;
-        Conversor resultadoConversion = null;
+        int seleccionUsuario;
+        double cantidadUsuario;
+        Conversor resultadoConversion;
         while(!stopProgram) {
             System.out.print("""
                 ******************************************

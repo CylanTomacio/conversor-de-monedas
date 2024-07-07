@@ -13,16 +13,19 @@ public class ConexionAPI {
     public Conversor obtenerDatos(String monedaBase, String monedaSecundaria, double cantidad) {
         final String API_KEY = "ef29840d5ce147c54652bf8b";
         final URI URL_BASE = URI.create("https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + monedaBase + "/" + monedaSecundaria + "/" + cantidad);
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URL_BASE)
-                .build();
+
         try {
-            HttpResponse<String> response = client
-                    .send( request, HttpResponse.BodyHandlers.ofString() );
+            HttpResponse<String> response;
+            try (HttpClient client = HttpClient.newHttpClient()) {
+                HttpRequest request = HttpRequest.newBuilder()
+                        .uri(URL_BASE)
+                        .build();
+                response = client
+                        .send(request, HttpResponse.BodyHandlers.ofString());
+            }
             return new Gson().fromJson( response.body(), Conversor.class );
         } catch (Exception e) {
-            throw new RuntimeException("No encontré la película.");
+            throw new RuntimeException("Problemas en la conexión con la API");
         }
     }
 
