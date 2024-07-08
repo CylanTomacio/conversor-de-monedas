@@ -14,8 +14,7 @@ Desafío de conversor de monedas de ALURA
 * [Estado del proyecto](#estado-del-proyecto)
 
 * [Desarrolladores del proyecto](#desarrolladores-del-proyecto)
-
-* [Conclusión](#conclusión)
+  
 
 ## Descripción del Proyecto ##
 
@@ -35,7 +34,15 @@ Puedes descargar el proyecto método habitual, a través de la descarga del zip 
 
 `git clone https://github.com/CylanTomacio/conversor-de-monedas.git`
 
+**Nota:** Recuerda descargar el paquete [GSON](https://mvnrepository.com/artifact/com.google.code.gson/gson) y obtener una API KEY a través de [Exchange Rate API](https://www.exchangerate-api.com/) antes de comenzar a probar el código.
+
 ## Tecnologías utilizadas ##
+
+Se usaron las siguientes tecnologías:
+
+- Java 18
+- GSON
+- Exchange Rate API
 
 ## Estado del Proyecto ##
 
@@ -43,5 +50,7 @@ Puedes descargar el proyecto método habitual, a través de la descarga del zip 
 
 ## Desarrolladores del proyecto ##
 
-## Conclusión ##
+Único desarrollador actualmente:
+
+- **Elvis Briceño**
 
