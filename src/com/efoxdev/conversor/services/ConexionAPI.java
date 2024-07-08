@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 public class ConexionAPI {
 
     public Conversor obtenerDatos(String monedaBase, String monedaSecundaria, double cantidad) {
-        final String API_KEY = "ef29840d5ce147c54652bf8b";
+        final String API_KEY = "YOUR API KEY";
         final URI URL_BASE = URI.create("https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + monedaBase + "/" + monedaSecundaria + "/" + cantidad);
 
         try {
